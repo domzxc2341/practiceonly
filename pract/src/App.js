@@ -1,21 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 function App() {
-  const [ time, setTime ] = useState(new Date());
 
-  
+    const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    function refreshClock(){
-      setTime(new Date());
-    }
-    const timerID = setInterval(refreshClock, 1000);
-    return function cleanup() {
-      clearInterval(timerID);
-    };
-  }, [setTime]);
+    
 
-  return <span>Time : {time.toLocaleTimeString()}</span>;
+  return (
+  <button></button>
+)
 }
 
 export default App;
