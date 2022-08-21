@@ -9,7 +9,7 @@ function App() {
       <div class=" bg-gradient-to-r from-indigo-900 to-teal-900 flex
       xs:w-[360px] xs:h-[640px] 
       sm:w-[640px]
-      
+      xl:w-screen h-screen
       ">
     
       <p class="text-[7vh] font-mono text-violet-600 relative font-bold inline
