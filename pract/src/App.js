@@ -6,10 +6,10 @@ function App() {
     <>
         <div class="bdy">
 
-      <div class=" bg-gradient-to-r from-indigo-900 to-teal-900 flex
+      <div class=" bg-gradient-to-r from-indigo-900 to-teal-900 flex 
       xs:w-[360px] xs:h-[640px] 
-      sm:w-[640px]
-      xl:w-screen h-screen
+      sm:w-[99vw] sm:h-[100vh]
+      xl:w-[99vw] xl:h-[100vh]
       ">
     
       <p class="text-[7vh] font-mono text-violet-600 relative font-bold inline
@@ -27,8 +27,9 @@ function App() {
        "/>
   
   </div>
-      <h1 class="text-4xl relative top-20 left-20 inline">Welcome</h1>
+     
       </div>
+      <h1 class="text-4xl relative top-20 left-20 inline">Welcome</h1>
     </>
   );
 }
