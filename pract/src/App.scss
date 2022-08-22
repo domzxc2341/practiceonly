@@ -1,43 +1,37 @@
 .body1 {
   background-color: #0f0e17;
-  min-height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
+  height: 100vh;
+  width: 100vw;
   top: 0;
   left: 0;
-  position: relative;
+  position: fixed;
   padding: 0;
   margin: 0;
 }
-
 .h1 {
   position: absolute;
-  padding-top: 38vh;
-  padding-left: 9vh;
+  top: 39vh;
+  left: 9vh;
   color: #fffffe;
   font-size: 7vh;
   font-family: noticia;
 }
-
 .h2 {
   position: absolute;
-  padding-top: 50vh;
-  padding-left: 8vh;
+  top: 50vh;
+  left: 8vh;
   color: #fffffe;
   font-size: 7vh;
   font-family: noticia;
 }
-
 .image1 {
   height: 40vh;
   position: absolute;
   top: 30vh;
   left: 105vh;
 }
-
-.body2 {
-  color: skyblue;
-  height: 100vh;
-  width: 100vw;
-}/*# sourceMappingURL=App.css.map */
+.body2{
+    color: skyblue;
+    height: 100vh;
+    width: 100vw;
+}
