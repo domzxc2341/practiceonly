@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PRACTICEONLY/static/css/main.26cfde04.css",
+    "main.js": "/PRACTICEONLY/static/js/main.cc3696fc.js",
+    "static/media/Photo_2.png": "/PRACTICEONLY/static/media/Photo_2.610647809686af1167d0.png",
+    "index.html": "/PRACTICEONLY/index.html",
+    "main.26cfde04.css.map": "/PRACTICEONLY/static/css/main.26cfde04.css.map",
+    "main.cc3696fc.js.map": "/PRACTICEONLY/static/js/main.cc3696fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26cfde04.css",
+    "static/js/main.cc3696fc.js"
+  ]
+}
