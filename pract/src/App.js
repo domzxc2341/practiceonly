@@ -1,14 +1,9 @@
-import FirstPage from "./FirstPage";
+import FirstPage from "./FirstPage"
 
 function App() {
   return (
-    <>
-      <FirstPage />
-      <div class="body2">
-Welcome
-      </div>
-    </>
-  );
+    <FirstPage />
+  )
 }
 
-export default App;
+export default App
