@@ -8,10 +8,10 @@ const Hour = Deyt.getHours()
 let greet =""
 
 if(Hour < 12){
-  greet = "Good Morning"
+  greet = "Good Morning!"
 }
 else if(Hour < 18){
-  greet = "Good Afternoon"
+  greet = "Good Afternoon!"
 } else {
   greet = "Good Evening!"
 }
