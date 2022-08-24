@@ -1,19 +1,37 @@
 import "./App.css";
 import Photo from './Photo_2.png'
 import Fade from 'react-reveal/Fade'
+import ScrollToTop from 'react-scroll-to-top'
+
+const Deyt = new Date()
+const Hour = Deyt.getHours()
+let greet =""
+
+if(Hour < 12){
+  greet = "Good Morning"
+}
+else if(Hour < 18){
+  greet = "Good Afternoon"
+} else {
+  greet = "Good Evening!"
+}
+
+
 
 function FirstPage() {
   return (
     <>
-      <div className="w-full h-screen bg-[#0f0e17] flex justify-between p-0 m-0 ">
+      <div className="w-full h-screen bg-[#0f0e17] flex justify-between p-0 m-0 scrollbar-hidden scrollbar-hidden1 ">
         <Fade left>
-      <div className="font-[noticia] absolute text-[#fffffe] bottom-0 text-[3.2vh]  px-[5vh] py-[60vh] space-y-4
+      <div className="font-Serif absolute text-[#fffffe] bottom-0 text-[3.2vh]  px-[5vh] py-[60vh] space-y-4
       xs:text-[3.2vh]  xs:px-[5vh] xs:py-[60vh] xs:space-y-4
       sm:text-[5vh] sm:px-[13vh]
+      c3:text-[2vh]
       md:text-[6vh] md:px-[15vh] md:py-[50vh]
       lg:text-[5vh] lg:px-[5vh] lg:py-[40vh]
       xl:text-[7vh] xl:px-[15vh] xl:py-[40vh]
        ">
+        <h1>{greet}</h1>
         <h1>Hello I'm Dominique</h1>
         <h1>And I'm Web Developer</h1>
       </div>
@@ -34,7 +52,7 @@ function FirstPage() {
      "/>
     </div>
     </Fade>
-      </div>
+  </div>
     </>
   );
 }

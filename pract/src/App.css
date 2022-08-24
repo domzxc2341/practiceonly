@@ -1,0 +1,12 @@
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+
+  *{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
