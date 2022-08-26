@@ -53,6 +53,10 @@ function FirstPage() {
     </div>
     </Fade>
   </div>
+  <div className="w-full h-screen bg-[#0f0e17] flex justify-between p-0 m-0 scrollbar-hidden scrollbar-hidden1 ">
+    Hello world!
+  </div>
+
     </>
   );
 }
